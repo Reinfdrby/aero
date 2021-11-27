@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0 user-scalable=1.0">
+    <title>AeroExpress</title>
+    <link rel="stylesheet" href="AE2.css" >
+    <link rel="stylesheet" href="AE2__left_menu.css">
+    <link rel="stylesheet" href="example.css">
+    <link rel="stylesheet" href="AE2__items.css">
+    <link rel="stylesheet" href="calc.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="im-aero/favicon.png" type="image/png">
+</head>
+<body>
+    <div id='pop1' class="popup_buy">
+        <div class="popup_buy_content">
+            <img src="calc/pay.png" alt="">
+            <a href="#"><div class="popup_buy_content_text">ОПЛАТИТЬ</div></a>
+        </div>
+    </div>
+    <div class="super-wrap">
+        <div class="sub__wrap">
+
+<!-- =================================== ХЭДДЕР ======================================== -->
+
+            <div class="header">
+                <div class="header__content">
+                    <div class="head-left">
+                        <a href="https://aeroexpress.ru/" title = "На главную"><img class="logo " src="im-aero/logo1.svg" alt=""></a>
+                    </div>
+                    <!--  БЛОК КНОПОК  -->
+                    <div class="right_main_column">
+                        <div class="rmc__wraper">
+                            <div class="rmc__1">
+                                <img class="rmc__1__1 rmc__1" src="im-aero/r-phone.png" title="Позвоните нам!" alt="">
+                            </div>                           
+                            <div class="rmc__1">
+                                <a href="https://aeroexpress.ru/aero/feedback.html" title="Оставьте свое обращение"> <img class="rmc__1__1" src="im-aero/right-message-grey.png" alt=""></a>
+                            </div>
+                            <div class="rmc__1">
+                                <a href="https://aeroexpress.ru/ru/aero/search.html" title="Поиск по сайту"><img class="rmc__1__1" src="im-aero/right-loop-grey.png" alt=""></a>
+                            </div>
+                            <div class="rmc__1__2">
+                                <a href="https://aeroexpress.ru/aero.html" title="Переключиться на русский язык"><p class="rmc__1__2">РУС</p></a>
+                            </div> 
+                            <div class="rmc__1__3">
+                                <a href="https://aeroexpress.ru/en/aero.html" title="Turn to english"><p class="rmc__1__2">ENG</p></a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!-- =================================== КОНТЕНТ ======================================= -->
+            <div class="main">
+                <div class="main__content">
+                    <div class="lefcen_main_column">
+                        
+<!-- ================================= БЛОК МЕНЮ ======================================= -->
+                        
+                        <div class="left_center_col">
+                            <div class="main-menu">
+                                <div class="mm-general autor">
+                                    <p>АВТОРИЗАЦИЯ</p>
+                                </div>
+                                <div class="mm-general buy">
+                                    <div>
+                                        <p>ПОКУПКА БИЛЕТА</p>
+                                    </div>
+                                </div>
+                                <div class="godown_block">
+                                    <p class="godown_block__text">Поезд АЭРОЭКСПРЕСС</p>
+                                    <a href="https://aeroexpress.ru/aero/busorder.html"> <p class="godown_block__text">Экспресс-автобус</p></a>  
+                                    <a href="https://aeroexpress.business/"> <p class="godown_block__text">Покупка билетов для ЮЛ</p></a>
+                                </div>
+                                <div class="mm-general price">
+                                    <p>ТАРИФЫ</p>
+                                </div>
+                                <a class="aaa mm-general mcd" href="https://odintsovo.aeroexpress.ru">
+                                    <p>АЭРОЭКСПРЕСС НА МЦД</p>
+                                </a>
+                                <a class="aaa mm-general bus" href="https://khovrino.aeroexpress.ru">
+                                    <p>ЭКСПРЕСС-АВТОБУС</p>
+                                </q>
+                                <a class="aaa mm-general day" href="https://aeroexpress.ru/bonus.html">
+                                    <p>РАСПИСАНИЕ</p>
+                                </a>
+                                <a  class="aaa mm-general priv">
+                                    <p>ПРИВИЛЕГИЯ</p>
+                                </a>
+                                <div class="mm-general info">
+                                    <p>ИНФОРМАЦИЯ</p>
+                                </div>
+                                <div id='howtobuy' class="mm-general how" >
+                                    <p>КАК ДОБРАТЬСЯ</p>
+                                </div>
+                                <div class="mm-general callme">
+                                    <p>ОБРАТНАЯ СВЯЗЬ</p>
+                                </div>
+                                <div class="mm-general are">
+                                    <p>АРЕНДАТОРАМ</p>
+                                </div>
+                            </div>
+                            <div class="left_btn">
+                                <div class="left_btn__go">
+                                    <p>Еще новости</p>
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <div class="left_btn2" id='btn1'>
+                                    <div class="left_btn__go2">
+                                        <p>INS</p>
+                                    </div>
+                                </div>
+                                <div class="left_btn2" id='btn2'>
+                                    <div class="left_btn__go2">
+                                        <p>DEL</p>
+                                    </div>
+                                </div>
+                                <div class="left_btn2" id='btn3'>
+                                    <div class="left_btn__go2">
+                                        <p>TRY</p>
+                                    </div>
+                                </div>
+                                <div class="left_btn2" id='btn4'>
+                                    <div class="left_btn__go2">
+                                        <p>HIDE</p>
+                                    </div>
+                                </div>
+                                <div class="left_btn2" id='btn5'>
+                                    <div class="left_btn__go2">
+                                        <p>UN_HIDE</p>
+                                    </div>
+                                </div>
+                                <div class="left_btn2" id='btn6'>
+                                    <div class="left_btn__go2">
+                                        <p>MORE</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="oranges">
+                                <div class="orange-info">
+                                    <div class="sign1">
+                                        <img class="sign1" src="im-aero/oran-attantion.png" alt="">
+                                    </div>
+                                    <div class="info1">
+                                        <p class='info1_1' id='toIns'>С 4 по 12 октября и 17 октября на направлении Домодедово поезда Аэроэкспресс отправляются с изменениями в расписании. Некоторые рейсы отменены</p>
+                                    </div>
+                                </div>
+                                <div class="orange-info">
+                                    <div class="sign2">
+                                        <img class="sign2" src="im-aero/oran-attantion.png" alt="turn">
+                                    </div>
+                                    <div class="info2">
+                                        <p>С 16 по 22 октября изменено расписание на направлении Шереметьево. Некоторые рейсы отменены. Уточнить информацию можно на сайте во вкладке Расписание, или по тел. 8-800-700-33-77.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+<!-- =============================== ЦЕНТРАЛЬНЫЙ БЛОК  =============+++================= -->
+                        <div class="center_center_col">
+
+<!-- ================================= ВЕРХНИЙ БЛОК  =============+++=================== -->
+
+<!-- ================================= КАЛЬКУЛЯТОР  ==================================== -->
+                            <div class="calc_container">    <!--  обертка калькулятора  -->
+                                <div class="calc_choice">   <!--  строка выбора типа перевозки - ЖД/автобус  -->
+                                    <span class="bus-s calc_choice__item">Автобус -50%</span>
+                                    <span class="train calc_choice__item boom">Аэроэкспресс</span>
+                                    <span class="subs calc_choice__item">Подписка от 60₽</span> 
+                                </div>
+                                <div class="ticket_and_options">    <!--  основной блок с билетом и опциями акций и пассажиров  -->
+                                    <div class="ticket_and_options__ticket"> <!--  билет с результатами выбора  -->
+                                        <div class="ticket_and_options__ticket_1_vis">
+                                            <div class="ticket_and_options__ticket__article"> <!--  наименование билета  -->
+                                                <span class="standart">БИЛЕТ “СТАНДАРТ”</span>
+                                            </div>
+                                            <div class="ticket_and_options__ticket__price"> <!--  цена билета  -->
+                                                <span id='t_new_price' class="standart">400</span>
+                                                <span> ₽</span>
+                                            </div>
+                                            <div class="ticket_and_options__ticket__discount"> <!--  линия с результатами скидок  -->
+                                                <div class="ticket_and_options__ticket__discount__old-item one-price">
+                                                    <span id='t_old_price' class="standart">450</span>
+                                                    <span> ₽</span>
+                                                </div>
+                                                <div class="ticket_and_options__ticket__discount__decor">
+                                                    <img src="calc/lightning.png" alt="">
+                                                </div>
+                                                <div class="ticket_and_options__ticket__discount__old-item discont">
+                                                    <span id='t_discount'>-11</span>
+                                                    <span> %</span>
+                                                </div>
+                                            </div>
+                                            <div class="ticket_and_options__ticket__article"> <!--  линия "Купить"  -->
+                                                <a href="#pop1"><span class='article2'>КУПИТЬ</span></a>                                                
+                                            </div>  
+                                        </div>
+                                        <div class="ticket_and_options__ticket_2_novis">  <!--  выезжающий блок с выбором пассажиров  -->
+                                            <div class="passangers__go_man">
+                                                <img src="calc/man black.png" alt="">
+                                                <img src="calc/man black.png" alt="">
+                                                <img src="calc/man black.png" alt="">
+                                                <img src="calc/man black.png" alt="">
+                                                <img src="calc/man white.png" alt="">
+                                                <img src="calc/man white.png" alt="">
+                                            </div>
+                                                <div class="passangers__go_chil">
+                                                <img src="calc/child A.png" alt="">
+                                                <img src="calc/child A.png" alt="">
+                                                <img src="calc/child Z.png" alt="">
+                                                <img src="calc/child Z.png" alt="">
+                                                <img src="calc/child Z.png" alt="">
+                                                <img src="calc/child Z.png" alt="">
+                                            </div>
+                                            <div class="passangers__go_note">
+                                                <p>Дети до 5 лет - бесплатно</p>
+                                            </div>
+                                        </div>
+                                        <div class="ticket_and_options__ticket_3_novis">  <!--  билет на автобус  -->
+                                            <div class="ticket_and_options__ticket__article"> <!--  наименование билета  -->
+                                                <span class="ex-bus media380">БИЛЕТ НА ЭКСПРЕСС-АВТОБУС "ХОВРИНО-ШЕРЕМЕТЬЕВО"</span>
+                                            </div>
+                                            <div class="ticket_and_options__ticket__price"> <!--  цена билета  -->
+                                                <span class="ex-bus">199</span>
+                                                <span> ₽</span>
+                                            </div>
+                                            <div class="ticket_and_options__ticket__discount"> <!--  линия с результатами скидок  -->
+                                                <div class="ticket_and_options__ticket__discount__old-item one-price">
+                                                    <span>300</span>
+                                                    <span> ₽</span>
+                                                </div>
+                                                <div class="ticket_and_options__ticket__discount__decor">
+                                                    <img src="calc/lightning.png" alt="">
+                                                </div>
+                                                <div class="ticket_and_options__ticket__discount__old-item discont">
+                                                    <span>-33</span>
+                                                    <span> %</span>
+                                                </div>
+                                            </div>
+                                            <div class="ticket_and_options__ticket__article"> <!--  линия "Купить"  -->
+                                                <span class='article2'>КУПИТЬ</span>
+                                            </div>  
+                                        </div>
+                                        <div class="ticket_and_options__ticket_4_novis">  <!--  билет с подпиской  -->
+                                            <div class="ticket_and_options__ticket__article"> <!--  наименование билета  -->
+                                                <span class="subs30">30 ПОЕЗДОК В МЕСЯЦ</span>
+                                            </div>
+                                            <div class="ticket_and_options__ticket__price"> <!--  цена билета  -->
+                                                <span class="ex-bus">1.800</span>
+                                                <span> ₽</span>
+                                            </div>
+                                            <div class="ticket_and_options__ticket__discount"> <!--  линия с результатами скидок  -->
+                                                <div class="ticket_and_options__ticket__discount__old-item one-price">
+                                                    <span class="min_text">3.600</span>
+                                                    <span class="min_text"> ₽</span>
+                                                </div>
+                                                <div class="ticket_and_options__ticket__discount__decor">
+                                                    <img src="calc/lightning.png" alt="">
+                                                </div>
+                                                <div class="ticket_and_options__ticket__discount__old-item discont">
+                                                    <span>-50</span>
+                                                    <span> %</span>
+                                                </div>
+                                            </div>
+                                            <div class="ticket_and_options__ticket__article"> <!--  линия "Купить"  -->
+                                                <span class='article2'>КУПИТЬ</span>
+                                            </div>  
+                                        </div>
+                                        <div class="ticket_and_options__ticket_5_novis">  <!--  билет Бизнес  -->
+                                            <div class="ticket_and_options__ticket__article"> <!--  наименование билета  -->
+                                                <span class="business-t">БИЛЕТ “БИЗНЕС”</span>
+                                            </div>
+                                            <div class="ticket_and_options__ticket__price"> <!--  цена билета  -->
+                                                <span class="business-t">899</span>
+                                                <span> ₽</span>
+                                            </div>
+                                            <div class="ticket_and_options__ticket__discount"> <!--  линия с результатами скидок  -->
+                                                <div class="ticket_and_options__ticket__discount__old-item one-price">
+                                                    <span>999</span>
+                                                    <span> ₽</span>
+                                                </div>
+                                                <div class="ticket_and_options__ticket__discount__decor">
+                                                    <img src="calc/lightning.png" alt="">
+                                                </div>
+                                                <div class="ticket_and_options__ticket__discount__old-item discont">
+                                                    <span>-10</span>
+                                                    <span> %</span>
+                                                </div>
+                                            </div>
+                                            <div class="ticket_and_options__ticket__article"> <!--  линия "Купить"  -->
+                                                <span class='article2'>КУПИТЬ</span>
+                                            </div>  
+                                        </div>
+                                        <div class="ticket_and_options__ticket_6_novis">   <!--  билет Альфа  -->
+                                            <div class="ticket_and_options__ticket__article"> <!--  наименование билета  -->
+                                                <span class="business-t">БИЛЕТ “АЛЬФА-СТАНДАРТ”</span>
+                                            </div>
+                                            <div class="ticket_and_options__ticket__price"> <!--  цена билета  -->
+                                                <span class="business-t">1</span>
+                                                <span> ₽</span>
+                                            </div>
+                                            <div class="ticket_and_options__ticket__discount"> <!--  линия с результатами скидок  -->
+                                                <div class="ticket_and_options__ticket__discount__old-item one-price">
+                                                    <span>450</span>
+                                                    <span> ₽</span>
+                                                </div>
+                                                <div class="ticket_and_options__ticket__discount__decor">
+                                                    <img src="calc/lightning.png" alt="">
+                                                </div>
+                                                <div class="ticket_and_options__ticket__discount__old-item discont">
+                                                    <span>-99</span>
+                                                    <span> %</span>
+                                                </div>
+                                            </div>
+                                            <div class="ticket_and_options__ticket__article"> <!--  линия "Купить"  -->
+                                                <span class='article2'>КУПИТЬ</span>
+                                            </div>  
+                                        </div>
+                                    </div>
+                                    <div class="pass420">
+                                        <div class="pass420_t">1 пассажир</div>                                        
+                                    </div>
+                                    <div class="ticket_and_options__item passengers">
+                                        <div class="promo__title">
+                                            <span>Пассажиры</span>
+                                        </div>
+                                        <div class="promo__choice-block">
+                                            <div class="promo__choice-block-items">
+                                                <img src="calc/man.png" alt="">
+                                                <span>4</span>
+                                            </div>
+                                            <div class="promo__choice-block-items">
+                                                <div class="promo__choice-block-items">
+                                                    <img class='child-im' src="calc/child A.png" alt="">
+                                                    <span>2</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="discount d1">
+                                            <span>-20</span>
+                                            <span>%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ticket_and_options__options yes">   <!--  выбор опций  -->       
+                                    <div class="ticket_and_options__options_items"> <!--  блок опций #1  -  бизнес  -->       
+                                        <div class="bus8 options_1__business_opt">
+                                            <img class="image1 boom_image1" src="calc/business no.png" alt="">
+                                            <img class="image1 reboom_image1" src="calc/business rw.png" alt="">
+                                        </div>
+                                        <div class="options_1__text business">
+                                            <div>Бизнес-класс</div>
+                                        </div>
+                                            <img class="plushki1" src="calc/business-items-no.png" alt="">
+                                            <img class="plushki2 plushki-no" src="calc/business-items-yes.png" alt="">
+                                    </div>  
+
+                                    <div class="ticket_and_options__options_items"> <!--  блок опций #3  -  акции  -->       
+                                        <div class="options_1__business_opt">
+                                            <img class="image2"src="calc/alpha.png" alt="">
+                                        </div>
+                                        <div class="options_1__text resale">
+                                            <span>Акция от<br>Альфа-банк</span>
+                                        </div>
+                                        <div class="discount-a no_d d2">
+                                            <span>- 99</span>
+                                            <span>%</span>
+                                        </div>
+                                    </div>  
+
+                                    <div class="ticket_and_options__options_items yes">     <!--  блок опций #2  -->       
+                                        <div class="options_1">
+                                            <img class="image3 boom_image3" src="calc/options1 no.png" alt="">
+                                            <img class="image3 reboom_image3" src="calc/options1 rw.png" alt="">
+                                            <img class="image4 boom_image4" src="calc/options2 no.png" alt="">
+                                            <img class="image4 reboom_image4" src="calc/options2 rw.png" alt="">
+                                            <img class="image5 boom_image5" src="calc/options3 no.png" alt="">
+                                            <img class="image5 reboom_image5" src="calc/options3 rw.png" alt="">
+                                            <span class='t_o__prefix'>Опции скидок</span>
+                                        </div>
+                                        <div class="options_1__text options_text">
+                                            <span class="image3-text">Туда и обратно</span>
+                                            <span class="image4-text">Заранее (от 2 дней)</span>
+                                            <span class="image5-text">Вечером (с 23:00)</span>
+                                        </div>
+                                        <div  class="discount disc-op no_d">
+                                            <span>до</span>
+                                            <span>-</span>
+                                            <span id='t_discount2'>35</span>
+                                            <span>%</span>
+                                        </div>
+                                    </div> 
+                                </div>     
+                                <div class="conditions alpha__condition del">
+                                    <p>УСЛОВИЯ АКЦИИ</p>
+                                    <p>Электронная карта - Бесплатный выпуск - Возврат на карту до 399 руб. за первую поездку - Кэшбек в течение 10 дней - Оформление за 1 минуту </p>
+                                    <p>Не для действующих клиентов Альфа-Банка</p>
+                                </div>     
+                                <div class="conditions busi__condition del">
+                                    <p>УСЛОВИЯ ТАРИФА</p>
+                                    <p>Одна поездка в вагоне Бизнес-класса Аэроэкспресс строго в соответствии с датой, временем и маршрутом, указанными в билете (выбранными при покупке). В стоимость входит гарантированное посадочное место повышенной комфортности, горячие напитки, вода. Приобретение билета возможно за 90 суток до предполагаемой даты поездки, включая день предполагаемой поездки. Однократное изменение реквизитов электронного билета возможно за 30 минут до отправления рейса. </p>
+                                    <p>Приятной поездки!</p>
+                                </div>                         
+                                <div class="comment">
+                                    <p class="comment_text">Выбранный билет действует на протяжении 30 дней с даты покупки</p>
+                                    <p class="comment_text">Активированные скидки: за онлайн-покупку - 12%, раннее бронирование - 10%, за обратный билет - 15%,  за вечерний рейс (с 23:00 до 02:00) - 10%, за количество пассажиров/детей - 15%</p>
+                                </div> 
+                            </div>
+
+<!-- ================================= НОВОСТНЫЕ БЛОКИ  ======================================= -->
+                            <div class="center__item_1">
+                                <!--  ВЕРХНИЙ БАННЕР  -->
+                                <!--<div class="center__item_1_1">
+                                    <a href="https://aeroexpress.ru/promo-alfa" title="100% кэшбэк"><img class="slider" src="im-aero/banner-center1.png" alt=""></a>
+                                </div>-->
+                                <div class="center__item_1_2 center__item_3_article">
+                                    <span>Аэроэкспресс – удобный трансфер в аэропорты Москвы</span>
+                                </div>
+                                <div class="center__item_1_3">
+                                    <p>Комфортабельные экспресс-поезда и автобусы между аэропортами Шереметьево, Домодедово, Внуково и центром Москвы. Бронирование экскурсий, покупка авиабилетов, сервисы для путешественников по всему миру.</p>
+                                </div>
+                            </div>
+                            <div class="center__item_3">
+                                <div class="center__item_3_article">
+                                    <p>Основные сервисы Аэроэкспресс</p>
+                                </div>
+                                <div class="center__item_3_row">
+                                    <div class="center__item_3_row_1">
+                                        <div class="center__item_3_row_1_1">
+                                            <div class="center__item_3_row_image_cont">
+                                                <img class="center__item_3_row_image" src="im-aero/white-many.png" alt="">
+                                            </div>
+                                            <div class="center__item_3_row_art">
+                                                <p>Корпоративным клиентам</p>
+                                            </div>
+                                            <div class="center__item_3_row_text">
+                                                <p>Специальный тариф для юридических лиц. Безналичная оплата</p>
+                                            </div>
+                                        </div>
+                                        <div class="center__item_3_row_button">
+                                            <img class="center__item_3_row_button" src="im-aero/white-right.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="center__item_3_row_1">
+                                        <div class="center__item_3_row_1_1">
+                                            <div class="center__item_3_row_image_cont">
+                                                <img class="center__item_3_row_image" src="im-aero/invalid.png" alt="">
+                                            </div>
+                                            <div class="center__item_3_row_art">
+                                                <p>Персональный помощник</p>
+                                            </div>
+                                            <div class="center__item_3_row_text ">
+                                                <p>Сервис для маломобильных пассажиров</p>
+                                            </div>
+                                        </div>
+                                        <div class="center__item_3_row_button">
+                                            <img class="center__item_3_row_button" src="im-aero/white-right.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="center__item_3_row_1">
+                                        <div class="center__item_3_row_1_1">
+                                            <div class="center__item_3_row_image_cont">
+                                                <img class="center__item_3_row_image" src="im-aero/white-present.png" alt="">
+                                            </div>
+                                            <div class="center__item_3_row_art">
+                                                <p>Аэроэкспресс ПРИВИЛЕГИЯ</p>
+                                            </div>
+                                            <div class="center__item_3_row_text">
+                                                <p>Накапливайте баллы за каждую поездку</p>
+                                            </div>
+                                        </div> 
+                                        <div class="center__item_3_row_button">
+                                            <img class="center__item_3_row_button" src="im-aero/white-right.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news">
+                                <div class="center__item_3_article">
+                                    <span>Новости</span>
+                                </div>
+                                <div class="news_line">
+                                    <div class="news_line_column">
+                                        <div class="news_line_column_pic_1"> 
+                                        </div>
+                                        <div class="news_line_column_date news_text">
+                                            <span>12.11.2021</span>
+                                        </div>
+                                        <div class="news_line_column_text news_text">
+                                            <span>Меры безопасности в поездах, автобусах и терминалах "Аэроэкспресс"</span>
+                                        </div>
+                                        <div class="news_line_column_link">
+                                            <img src="im-aero/white-right.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="news_line_column">
+                                        <div class="news_line_column_pic_2">
+                                        </div>
+                                        <div class="news_line_column_date news_text">
+                                            <span>12.11.2021</span>
+                                        </div>
+                                        <div class="news_line_column_text news_text">
+                                            <span>"Аэроэкспресс" проводит подготовку к работе в зимний сезон</span>
+                                        </div>
+                                        <div class="news_line_column_link">
+                                            <img src="im-aero/white-right.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="news_line_column">
+                                        <div class="news_line_column_pic_3">
+                                        </div>
+                                        <div class="news_line_column_date news_text">
+                                            <span>12.11.2021</span>
+                                        </div>
+                                        <div class="news_line_column_text news_text">
+                                            <span>"Аэроэкспресс" информирует об изменениях в расписании на Шереметьевском направлении с 30 октября</span>
+                                        </div>
+                                        <div class="news_line_column_link">
+                                            <img src="im-aero/white-right.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+<!-- ================================= ТАРИФЫ  ======================================= -->
+
+                            <nav class="center_nav__container">
+                                <div data-filter="1" class="center_nav__items active"><span>ВСЕ</span></div>
+                                <div data-filter="2" class="center_nav__items"><span>СТАНДАРТ</span></div>
+                                <div data-filter="3" class="center_nav__items"><span>БИЗНЕС</span></div>
+                                <div data-filter="4" class="center_nav__items"><span>ДОП</span></div>
+                            </nav>
+                            <div class="center__item_2">
+                                <div class="items_main items_main__2">
+                                    <div class="frame__SVO">
+                                        <p>SVO,DME,VKO</p>
+                                    </div>
+                                    <div class="frame">
+                                        <div class="frame__text">
+                                            <p class="frame__article">Стандарт</p>
+                                            <p class="frame__price">399 руб.</p>
+                                        </div>
+                                        <div class="frame__picture">
+                                            <img class="frame__picture_1" src="im-aero/gray-man.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="frame__howlong"> 
+                                        <span>действителен 30 дней</span>
+                                    </div>   
+                                    <div class="hidden_block">
+                                        <p>Lorem ipsum dolor sit.</p>
+                                    </div>
+                                    <div class="frame__buy">
+                                        <div class="frame__buy_text">
+                                            <P>КУПИТЬ</P>
+                                        </div>
+                                        <div class="arrow__space">
+                                            <div class="arrow"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="items_main items_main__2">
+                                    <div class="frame__SVO">
+                                        <p>SVO,DME,VKO</p>
+                                    </div>
+                                    <div class="frame">
+                                        <div class="frame__text">
+                                            <p class="frame__article">Стандарт <br> туда-обратно</p>
+                                            <p class="frame__price">750 руб.</p>
+                                        </div>
+                                        <div class="frame__picture">
+                                            <img src="im-aero/gray-reverse.png" class="frame__picture_1"  alt="">
+                                        </div>
+                                    </div>
+                                    <div class="frame__howlong"> 
+                                        <span>действителен 30 дней</span>
+                                    </div>
+                                    <div class="frame__buy">
+                                        <div class="frame__buy_text">
+                                            <P>КУПИТЬ</P>
+                                        </div>
+                                        <div class="arrow__space">
+                                            <div class="arrow"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="items_main items_main__3">
+                                    <div class="frame__SVO">
+                                        <p>SVO,DME,VKO</p>
+                                    </div>
+                                    <div class="frame">
+                                        <div class="frame__text">
+                                            <p class="frame__article">Бизнес</p>
+                                            <p class="frame__price">800 руб.</p>
+                                        </div>
+                                        <div class="frame__picture">
+                                            <img class="frame__picture_1" src="im-aero/gray-man-tie.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="frame__howlong"> 
+                                        <span>действителен на выбранную дату</span>
+                                    </div>
+                                    <div class="frame__buy">
+                                        <div class="frame__buy_text">
+                                            <P>КУПИТЬ</P>
+                                        </div>
+                                        <div class="arrow__space">
+                                            <div class="arrow"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="items_main items_main__2">
+                                    <div class="frame__SVO">
+                                        <p>SVO,DME,VKO</p>
+                                    </div>
+                                    <div class="frame">
+                                        <div class="frame__text">
+                                            <p class="frame__article">Семейный<br> туда-обратно</p>
+                                            <p class="frame__price">1300 руб.</p>
+                                        </div>
+                                        <div class="frame__picture">
+                                            <img class="frame__picture_1" src="im-aero/gray-family.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="frame__howlong"> 
+                                        <span> действителен 30 дней</span>
+                                    </div>
+                                    <div class="frame__buy">
+                                        <div class="frame__buy_text">
+                                            <P>КУПИТЬ</P>
+                                        </div>
+                                        <div class="arrow__space">
+                                            <div class="arrow"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="items_main items_main__4">
+                                    <div class="frame__SVO">
+                                        <p>SVO</p>
+                                    </div>
+                                    <div class="frame">
+                                        <div class="frame__text">
+                                            <p class="small_text">Экспресс-автобус<br>Ховрино-<br>Шереметьево</p>
+                                            <p class="frame__price">199 руб.</p>
+                                           </div>
+                                        <div class="frame__picture">
+                                            <img class="frame__picture_1" src="im-aero/gray-bus.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="frame__howlong"> 
+                                        <span>действителен на выбранную дату</span>
+                                    </div>
+                                    <div class="frame__buy">
+                                        <div class="frame__buy_text">
+                                            <P>КУПИТЬ</P>
+                                        </div>
+                                        <div class="arrow__space">
+                                            <div class="arrow"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="items_main red items_main__2">
+                                    <div class="frame__SVO">
+                                        <p></p>
+                                    </div>
+                                    <div class="frame">
+                                        <div class="frame__text">
+                                            <p class="frame__article">Стандарт <br>100% кэшбэк</p>
+                                            <p class="frame__price"><s>399</s> 0 руб.</p>
+                                        </div>
+                                        <div class="frame__picture_2">
+                                            <img class="frame__picture_2-1" src="im-aero/left-white-diamond.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="frame__howlong"> 
+                                        <span> </span>
+                                    </div>
+                                    <div class="frame__buy">
+                                        <div class="frame__buy_text">
+                                            <P>КУПИТЬ</P>
+                                        </div>
+                                        <div class="arrow__space">
+                                            <div class="arrow"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="items_main items_main__4">
+                                    <div class="frame__SVO">
+                                        <p>DME</p>
+                                    </div>
+                                    <div class="frame">
+                                        <div class="frame__text">
+                                            <p class="frame__article">Подписка<br>на 15 поездок</p>
+                                            <p class="frame__price">1800 руб.</p>
+                                        </div>
+                                        <div class="frame__picture">
+                                            <img class="frame__picture_1" src="im-aero/grey-money.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="frame__howlong"> 
+                                        <span>действителен 30 дней</span>
+                                    </div>
+                                    <div class="frame__buy">
+                                        <div class="frame__buy_text">
+                                            <P>КУПИТЬ</P>
+                                        </div>
+                                        <div class="arrow__space">
+                                            <div class="arrow"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="items_main items_main__4">
+                                    <div class="frame__SVO">
+                                        <p> </p>
+                                    </div>
+                                    <div class="frame">
+                                        <div class="frame__text">
+                                            <p class="frame__article">Дополнит-е<br>услуги</p>
+                                        </div>
+                                        <div class="frame__picture">
+                                            <img class="frame__picture_1" src="im-aero/grey-ok.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="frame__howlong"> 
+                                        <span> </span>
+                                    </div>
+                                    <div class="frame__buy">
+                                        <div class="frame__buy_text">
+                                            <P>КУПИТЬ</P>
+                                        </div>
+                                        <div class="arrow__space">
+                                            <div class="arrow"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="form__goto">
+                                <form action="">
+                                    <button class="goto"  type="submit"> тарифы </button>
+                                </form>
+                            </div>
+                        </div>
+
+<!-- =========================== БЛОК БАННЕРОВ СПРАВА  ================================= -->
+
+                        <div class="right_center_col">
+                            <a href="https://aeroexpress.ru/promo-alfa" title="100% кэшбэк"><img src="im-aero/r1.jpg" alt="Кэшбэк 100%"></a>
+                            <a href='https://aeroexpress.ru/avia/' title="Удобный поиск и бронирование авиабилетов"><img src="im-aero/r2.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!-- =================================  ФУТЕР  ========================================= -->
+              
+            <div class="footer">
+                <div class="foot__content">
+                    <p>© «Аэроэкспресс», 2021. Комфортабельные поезда в аэропорты Внуково, Домодедово и Шереметьево с Киевского, Павелецкого, Белорусского и Савеловского вокзалов Москвы и станций МЦК.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- =================================  СКРИПТЫ  ========================================= -->
+    <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+    <script async src="up_and_down.js"></script>
+    <script async src='try_Dima.js'></script>
+    <script async src='calc.js'></script>
+
+</body>
+</html>
