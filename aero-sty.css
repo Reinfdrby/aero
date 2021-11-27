@@ -1,0 +1,275 @@
+*{padding: 0; margin: 0; border: 0;}
+*,*:before,*:after{	-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height: 100%;	width: 100%; font-size: 100%; line-height: 1; font-size: 14px; 	-ms-text-size-adjust: 100%; -moz-text-size-adjust: 100%; 	-webkit-text-size-adjust: 100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+.bigred{font-size: 20px; color: red;}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+}
+
+.border {
+    border: 1px solid green;
+}
+.border2 {
+    border: 1px solid red;
+}
+
+
+
+.wrapper {
+    background: #f5f6f8;
+    min-height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+/* верхний блок - хэдер */
+.header1 {
+    display: flex;
+    align-items: center;
+    height: 105px;
+    padding-left: 40px;
+}
+.head-left {
+    flex: 1 1 auto;
+}
+.logo {
+    height: 70px;
+}
+.head-eng {
+    flex: 0 0 auto;
+    margin-left: 30px;
+}
+.logo2 {
+    height: 25px;
+}
+.head-ru {
+    flex: 0 0 auto;
+}
+.head-lens {
+    flex: 0 0 auto;
+}
+.head-speak {
+    flex: 0 0 auto;
+}
+.head-phone {
+    flex: 0 0 auto;
+}
+
+/* центральный блок - контент */
+.main {
+    display: flex;
+}
+
+/* контент - основа*/
+.left__center {
+
+}
+.container {
+    display: flex;
+}
+
+/* контент - основа - левый блок */
+.left-menu {
+    flex: 0 0 280px;
+    }
+.main-menu {
+    justify-content: center;
+    align-items:flex-start;
+    background-color: #ff1300;
+    height: fit-content;
+    }
+.mm-general {
+    font-weight: 300;
+    font-size: 16px;
+    padding: 23px 25px 8px 43px;
+    color: white;
+}
+.autor {
+    background-image: url('im-aero/man.png'), url('im-aero/down.png');
+    background-repeat: no-repeat;
+    background-size: 26px;
+    background-position: 12px 19px, 235px 20px;
+}
+.buy {
+    background: url(im-aero/info.png), url('im-aero/down.png');
+    background-repeat: no-repeat;
+    background-size: 26px;
+    background-position: 12px 18px, 235px 20px;
+}
+.price {
+    background: url(im-aero/list.png), url('im-aero/right.png');
+    background-repeat: no-repeat;
+    background-size: 26px;
+    background-position: 12px 18px, 235px 20px;
+}
+.mcd {
+    background: url(im-aero/info.png), url('im-aero/right.png');
+    background-repeat: no-repeat;
+    background-size: 26px;
+    background-position: 12px 18px, 235px 20px;
+}
+.bus {
+    background: url(im-aero/info.png), url('im-aero/right.png');
+    background-repeat: no-repeat;
+    background-size: 26px;
+    background-position: 12px 18px, 235px 20px;
+}
+.day {
+    background: url(im-aero/schedule.png), url('im-aero/right.png');
+    background-repeat: no-repeat;
+    background-size: 26px;
+    background-position: 12px 18px, 235px 20px;
+}
+.priv {
+    background: url(im-aero/diamond.png), url('im-aero/right.png');
+    background-repeat: no-repeat;
+    background-size: 26px;
+    background-position: 12px 20px, 235px 20px;
+}
+.info {
+    background: url(im-aero/info.png), url('im-aero/down.png');
+    background-repeat: no-repeat;
+    background-size: 26px;
+    background-position: 12px 18px, 235px 20px;
+}
+.how {
+    background: url(im-aero/info.png), url('im-aero/down.png');
+    background-repeat: no-repeat;
+    background-size: 26px;
+    background-position: 12px 18px, 235px 20px;
+}
+.callme {
+    background: url(im-aero/sp.png), url('im-aero/right.png');
+    background-repeat: no-repeat;
+    background-size: 26px;
+    background-position: 12px 20px, 235px 20px;
+}
+.are {
+    background: url(im-aero/info.png), url('im-aero/right.png');
+    background-repeat: no-repeat;
+    background-size: 26px;
+    background-position: 12px 18px, 235px 20px;
+    margin-bottom: 23px;
+    padding: 23px 25px 20px 43px;
+}
+.orange-info1 {
+    background-color: #ff7700;
+    padding: 15px;
+    margin-bottom: 25px;
+    display: flex;
+}
+.sign1 {
+    height: 29px;
+    margin-right: 5px;
+    margin-top: -2px;
+}
+.info1 {
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+    line-height: 22px;
+}
+.orange-info2 {
+    background-color: #ff7700;
+    padding: 15px;
+    display: flex;
+}
+.sign2 {
+    height: 29px;
+    margin-right: 5px;
+    margin-top: -2px;
+}
+.info2 {
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+    line-height: 22px;
+}
+
+
+
+/* контент - основа - левый блок */
+.center__center {
+    flex: 1 1 auto;
+    padding: 0px 25px 50px 25px;
+    margin: 0px 0px;
+}
+.slider {
+
+}
+.tickets {
+}
+.services {
+}
+.news {
+}
+.companies{
+}
+.corp{
+}
+.smi{
+}
+
+
+/* контент - основа - праввый блок */
+.right__center {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 10%;
+    margin: -20px 0px;
+    }
+.side-board-none {
+    height: 500px;
+}
+.side-board-1 {
+    padding: 15px 0px;
+}
+.side-board-2 {
+}
+
+
+
+/* центральный блок - правая навигационная панель */
+.right__right {
+    display: flex;
+    flex: 0 0 auto;
+}
+.right-main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.head-ru2 {
+
+}
+.head-lens2 {
+
+}
+.head-speak2 {
+
+}
+.head-phone2 {
+
+}
+
+
+/* нижний блок - футер */
+.footer {
+}
+.logos {
+}
+.foottext {
+}
