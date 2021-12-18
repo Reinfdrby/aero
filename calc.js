@@ -134,6 +134,15 @@ $(document).ready(function() {
 });
 
 
+/* ===========================  Пассажиры в мобилке   ========================*/
+const passa = document.querySelector('.pass420');
+const passaText = document.querySelector('.pass420_t');
+passa.addEventListener('click', function(a) {
+    passa.classList.toggle('pass_plus');
+    passaText.classList.toggle('pass420_t_plus');
+})
+
+
 
 /* ===========================  Константы для выбора ========================
 vis1 - поезд
