@@ -137,9 +137,12 @@ $(document).ready(function() {
 /* ===========================  Пассажиры в мобилке   ========================*/
 const passa = document.querySelector('.pass420');
 const passaText = document.querySelector('.pass420_t');
+const passat = document.querySelectorAll('.pass420_block');
 passa.addEventListener('click', function(a) {
     passa.classList.toggle('pass_plus');
-    passaText.classList.toggle('pass420_t_plus');
+    passaText.classList.toggle('boom');
+    for (a of passat) {
+        a.classList.toggle('boom')};
 })
 
 
